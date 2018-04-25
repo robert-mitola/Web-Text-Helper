@@ -1,0 +1,6 @@
+p {
+    font-size: 32px !important;
+    background: -webkit-repeating-linear-gradient(left, black , red , black , blue , black 50%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
