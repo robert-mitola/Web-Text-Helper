@@ -1,4 +1,4 @@
-p {
+p#css_test {
     /*
     font-size: 32px !important;
     background: 
@@ -61,7 +61,7 @@ p {
     
     font-size: 32px !important;
     background: 
-        -webkit-repeating-linear-gradient(left, rgba(255,0,0,.25), rgba(0,0,255,.5)),
+        -webkit-repeating-linear-gradient(left, rgba(255,0,0,.45), rgba(0,0,255,.25)),
     
         -webkit-repeating-linear-gradient(left, rgba(255,0,0,.25), rgba(0,255,0,.3)),
         -webkit-repeating-linear-gradient(left, rgba(0,255,0,.3), rgba(0,0,255,.45)),
