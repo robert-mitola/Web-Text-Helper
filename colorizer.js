@@ -28,11 +28,15 @@ function generateGradient(r1, g1, b1, r2, g2, b2, alpha, width, index){
     return "rgba("+r+","+g+","+b+","+alpha+")";
 }
 
-var changeColor = function(){
-    var element = document.getElementById("demo");
+function changeColor(element){
+    //var element = document.getElementById("demo");
     var newText = Array.prototype.map.call(element.textContent || element.innerText, function(letter, index){
         return "<span style='color: " + generateGradient(255, 0, 0, 0, 0, 255, 1, 50, index) + ";'>" + letter + "</span>";
     }).join('');
     element.innerHTML = newText;
 }
 
+var ps = document.getElementsByTagName("p");
+for(var i = 0; i < ps.length; ++i){
+    changeColor(ps[i]);
+}
